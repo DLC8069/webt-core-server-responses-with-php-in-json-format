@@ -38,6 +38,8 @@ class Seeder
 
         $outputArr[2] = new OST(3, "LeagueOfLegends OST", 2006, $songArr, "LeagueOfLegends");
 
+        $outputArr[3] = new OST(8520, "LeagueOfLegends OST", 2006, $songArr, "LeagueOfLegends");
+
         return $outputArr;
    }
 
